@@ -1,0 +1,127 @@
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .news-wrapper .site-w,
+    .home-slider-wrapper .site-w {
+        padding: 0 var(--middle-padding);
+        background-color: transparent;
+    }
+
+    .bottom-banner-wrapper {
+        display: none;
+    }
+
+    .main-banner-item {
+        height: calc(200px + (356px - 200) * ((100vw - 760px) / (1100 - 320)));
+    }
+
+    .news-list-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(calc(50% - 10px), 1fr));
+        grid-gap: 10px;
+    }
+
+    .news-wrapper .news-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .criteria-form,
+    .criteria-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .criteria-title {
+        display: block;
+        margin-right: 10px;
+    }
+
+     .product-detail-content {
+         background-color: var(--bg);
+         padding-top: 16px;
+     }
+
+     .product-top-wrapper,
+     .product-detail-content {
+         background-color: var(--white);
+         position: relative;
+     }
+
+     .product-info-wrapper,
+     .product-detail {
+         padding: var(--middle-padding);
+     }
+
+     .sidebar-product-related {
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(calc(145px + (280 - 145) * ((100vw - 300px) / (1920 - 320))), 1fr));
+         grid-gap: var(--small-padding);
+     }
+
+     .sidebar-product-related .home-slider-item:nth-of-type(10) {
+         display: none;
+     }
+}
+
+@media (min-width: 760px) and (max-width: 990px) {
+    .quan-box{
+        width: 40%;
+    }
+    .buynow-btn {
+        width: 60%;
+    }
+
+    .quan-box .form-control {
+        width: 100%;
+    }
+
+    .quan-box button {
+        min-width: 60px;
+    }
+
+    .product-content-extra {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .static-item.box-trade {
+        width: 49%;
+    }
+
+    .product-sub-title {
+        background-color: transparent;
+        padding: 0;
+    }
+}
+@media (min-width: 990px) and (max-width: 1100px) {
+    .product-right-content {
+        width: 280px;
+    }
+
+    .product-left-content {
+        width: calc(100% - 280px);
+    }
+
+    .product-sticky-box-content {
+        flex-wrap: wrap;
+    }
+
+    .product-sticky-box-image,
+    .product-sticky-box-info {
+        width: 100%;
+        padding: 0 0 10px;
+    }
+
+    .detail-comment-action {
+        width: 250px;
+        min-width: 250px;
+    }
+}
