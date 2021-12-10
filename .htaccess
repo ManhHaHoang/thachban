@@ -11,4 +11,7 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 RewriteRule ^404/?$ 404.php
 ErrorDocument 404 /404
 
+RewriteCond %{QUERY_STRING} ^sort=2$
+RewriteRule ^page.php$ /danh-muc.php?d=150 [R=301,L,QSD]
+
 </IfModule>

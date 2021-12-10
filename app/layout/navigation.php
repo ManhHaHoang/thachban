@@ -10,55 +10,55 @@
             </a>
         </li>
         <li class="main-menu-item">
-            <a class="menu-item-link" href="#">
+            <a class="menu-item-link" href="/danh-muc">
                 Gạch lát nền Thạch Bàn 800x800
             </a>
         </li>
 
         <li class="main-menu-item">
-            <a class="menu-item-link" href="#">
+            <a class="menu-item-link" href="/danh-muc">
                 Gạch lát nền Thạch Bàn 600x600
             </a>
         </li>
         <li class="main-menu-item">
-            <a class="menu-item-link" href="#">
+            <a class="menu-item-link" href="/danh-muc">
                 Gạch lát nền Thạch Bàn 300x600
             </a>
         </li>
         <li class="main-menu-item">
-            <a class="menu-item-link" href="#">
+            <a class="menu-item-link" href="/danh-muc">
                 Gạch lát nền Thạch Bàn 300x300
             </a>
         </li>
         <li class="main-menu-item">
-            <a class="menu-item-link" href="#">
+            <a class="menu-item-link" href="/danh-muc">
                 Ngói Thạch Bàn
             </a>
         </li>
         <li class="main-menu-item">
-            <a class="menu-item-link" href="#">
+            <a class="menu-item-link" href="/danh-muc">
                 Gạch đất sét nung Thạch Bàn
             </a>
         </li>
         <li class="main-menu-item has-submenu">
-            <a class="menu-item-link" href="#">
+            <a class="menu-item-link" href="/danh-muc">
                 Sản phẩm khác
             </a>
             <div class="main-submenu-wrapper">
                 <div class="submenu-item-box">
-                    <a href="#" class="submenu-link submenu-title">
+                    <a href="/danh-muc" class="submenu-link submenu-title">
                         Sản phẩm khác
                     </a>
-                    <a href="#" class="submenu-link">
+                    <a href="/danh-muc" class="submenu-link">
                         Nội thất bếp
                     </a>
-                    <a href="#" class="submenu-link">
+                    <a href="/danh-muc" class="submenu-link">
                         Thiết bị nước
                     </a>
-                    <a href="#" class="submenu-link">
+                    <a href="/danh-muc" class="submenu-link">
                         Nội thất phòng tắm
                     </a>
-                    <a href="#" class="submenu-link">
+                    <a href="/danh-muc" class="submenu-link">
                         Nội thất tổng hợp
                     </a>
                 </div>
