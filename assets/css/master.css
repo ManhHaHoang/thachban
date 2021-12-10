@@ -1,8 +1,8 @@
 :root {
-    --primary: #1a4388;
-    --primary-dk: #121e3b;
-    --primary-lt: #50588a;
-    --secondary: #ff7300;
+    --primary: #ed1b23;
+    --primary-dk: #c70009;
+    --primary-lt: #ff4439;
+    --secondary: #1a4388;
     --secondary-dk: #ff4e00;
     --secondary-lt: #ff8f28;
     --successful: #2d9834;
@@ -32,7 +32,8 @@
     --middle-padding: 16px;
     --large-padding: 32px;
 
-    --bg: #eff0f5
+    --bg: #eff0f5;
+    --site: 1440px;
 }
 
 *,
@@ -469,7 +470,7 @@ ul {
 }
 
 .site-w {
-    max-width: 1440px;
+    max-width: var(--site);
     width: 100%;
     padding-left: var(--large-padding);
     padding-right: var(--large-padding);
