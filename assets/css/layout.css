@@ -551,15 +551,16 @@ del {
     border-radius: 6px;
 }
 
-.hight-price del {
-    color: var(--dark);
+del.hight-price {
+    color: var(--darkness);
     white-space: nowrap;
+    opacity: 0.8
 }
 
 .sale-price {
     color: #d50200;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 600;
     white-space: nowrap;
     padding: 4px 0
 }
@@ -627,7 +628,7 @@ del {
 .rating-star-in-list.star-on {
     background-color: rgb(255, 188, 89);
 }
-.rating-star-in-list.star-on.star-half {
+.rating-star-in-list.star-half {
     background: rgb(255,188,89);
     background: linear-gradient(90deg, rgba(255,188,89,1) 0%, rgba(255,188,89,1) 25%, rgba(255,188,89,1) 50%, rgba(214,218,223,1) 50%, rgba(214,218,223,1) 100%);
 }

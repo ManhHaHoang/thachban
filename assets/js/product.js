@@ -1,15 +1,18 @@
 $(document).ready(function() {
-    $('.main-banner').slick({
-        infinite: false,
+    $('.product-gallery').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
+        arrows: false,
+        asNavFor: '.product-thumb'
     });
-    $('.home-slider-init').slick({
-        infinite: false,
-        slidesToShow: 6,
-        slidesToScroll: 6,
+    $('.product-thumb').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.product-gallery',
         dots: false,
+        centerMode: false,
+        focusOnSelect: true,
+        infinite: false,
         responsive: [
             {
                 breakpoint: 1440,
@@ -47,5 +50,22 @@ $(document).ready(function() {
             }
         ]
     });
+
+    $(document).on('click', '.js-customer-button, .cancel-comment', function () {
+        $('#moduleReviewForm').slideToggle();
+        $('.js-customer-button').toggleClass('comment-active')
+        if ($('.js-customer-button').hasClass('comment-active')) {
+            $('.js-customer-button').text('Hủy').addClass('js-close-form');
+        } else {
+            $('.js-customer-button').text('Đánh giá và nhận xét').removeClass('js-close-form');
+        }
+    })
+
+    $(document).on('click', '.js-reply-comment', function () {
+        $(this).next().slideDown();
+    })
+    $(document).on('click', '.product-sub-title', function () {
+        // $(this).next().slideToggle();
+    })
 
 });

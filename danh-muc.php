@@ -79,6 +79,7 @@
 
                 <div class="list-product-item">
                     <?php include './app/common/products/product-item.php'; ?>
+                    <?php include './app/common/products/product-item.php'; ?>
                 </div>
                 <ul class="pagination">
                     <li class="disabled"><span>«</span></li>

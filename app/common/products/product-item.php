@@ -1,4 +1,4 @@
-<?php for ($i=1; $i < 21; $i++) : ?>
+<?php for ($i=1; $i < 9; $i++) : ?>
     <div class="home-slider-item">
         <div class="home-show-image">
             <a href="/chi-tiet-san-pham">
