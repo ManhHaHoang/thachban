@@ -579,8 +579,11 @@ del.hight-price {
 }
 
 .addtocart-btn {
+    background-color: var(--secondary-lt);
+    color: var(--white);
     width: 32px;
     height: 32px;
+    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -735,16 +738,13 @@ del.hight-price {
 }
 
 /* footer */
+
 .newsletter-wrapper {
-    padding: 1.5rem 2rem;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 20px;
 }
 
-.newsletter-form-wrap {
-    max-width: 600px;
-    margin: 0.5rem auto 0;
+.newsletter-title {
+    margin-bottom: 10px;
 }
 
 .newsletter-form-wrap .form-control {
@@ -767,6 +767,56 @@ del.hight-price {
     color: rgba(255, 255, 255, 0.7);
 }
 
+.rule-cqn .rule-title {
+    font-size: calc(17px + (21 - 17) * ((100vw - 300px) / (1920 - 300)));
+    margin-bottom: 1rem;
+}
+
+.rule-cqn {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.rule-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    color: var(--secondary);
+}
+
+.rule-item {
+    padding: 8px;
+    margin: 0 6px;
+    border: 1px solid var(--dark);
+    border-radius: 6px;
+    background-color: var(--white);
+    width: 250px;
+    user-select: none;
+}
+
+.rule-item img {
+    width: 50px;
+    min-width: 50px;
+    margin-right: 6px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.rule-item span {
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+}
+
+
 .footer-title {
     font-size: calc(17px + (21 - 17) * ((100vw - 300px) / (1920 - 300)));
     color: var(--white);
@@ -783,10 +833,20 @@ del.hight-price {
     margin: 0.4rem 0 1rem;
 }
 
-.footer-wrapper a {
-    color: var(--white);
-    padding: 4px 0;
+.footer-wrapper .small-text {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 6px 0;
     font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1920 - 300)));
+}
+
+.footer-wrapper .small-text a,
+.footer-wrapper a.small-text  {
+    color: #fff;
+}
+
+.small-text small {
+    display: block;
+    padding-top: 3px;
 }
 
 .footer-wrapper a:hover {
