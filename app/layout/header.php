@@ -28,7 +28,7 @@
             </a>
 
             <div class="search-wrapper">
-                <form class="search-form flex-b align-s flex-s" action="/search/" method="get">
+                <form class="search-form flex-b align-s flex-s" action="/tim-kiem" method="get">
                     <div class="parent-item">
                         <input autocomplete="off" class="category-keyword input-text" readonly name="c" placeholder="Tất cả danh mục" type="text" >
                         <div class="content hidden">
